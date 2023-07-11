@@ -1,0 +1,18 @@
+:root {
+    --bgColor: #BCF2FF;
+    --headerColor: #EF4C27;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body {
+    font-family: 'Ubuntu';
+}
+
+ul {
+    list-style: none;
+}
