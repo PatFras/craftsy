@@ -62,3 +62,59 @@ nav {
     margin: auto;
     padding: 0 2px 1px 2px;
 }
+
+.home_aside-tutoriales {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bgColor);
+}
+
+.title-box {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 5px;
+}
+
+.section-content {
+    background-color: #ffffff;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-box {
+    margin: 5px;
+    padding-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px var(--bgColor);
+}
+
+.article-box:last-child {
+    border-bottom: none;
+}
+
+.article-box p {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.section-publicity-content {
+    background-color: #ffffff;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-publicity-box {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4px;
+}
+
+.img2 {
+    padding: 0 3px 0 3px;
+}
