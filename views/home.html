@@ -4,152 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/2d81885619.js" crossorigin="anonymous"></script>
-    <title>Home</title>
+    <title>Craftsy</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/3f21023fe6.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="home_body">
-
-    <header class="home_header">
-
-        <img class="logo" src="/img/logo.png" alt="logo craftsy">
-
-        <nav>
+<body class="home">
+    <header class="home__header">
+        <div class="home__header--top">
+            <a href="/"><img src="/img/logo.png" alt=""></a>
+            <button class="home__header--bars">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+        </div>
+        <form action="" class="home__header--form">
+            <input type="text" placeholder="Encontrá lo que buscás...">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+        <nav class="home__header--menu">
             <ul>
-                <li>smartphones</li>
-                <li>tablets</li>
-                <li>computers</li>
+                <li><a href="">smartphones</a></li>
+                <li><a href="">tablets</a></li>
+                <li><a href="">computadoras</a></li>
+            </ul>
+            <ul>
+                <li><a href="/login">login</a></li>
+                <li><a href="/register">registro</a></li>
             </ul>
         </nav>
-
-        <nav>
-            <ul>
-                <li>login</li>
-                <li>register</li>
-            </ul>
-        </nav>
-
-        <a href="" class="hamburger_button"><i class="fas fa-bars"></i></a>
-
     </header>
+<div class="home__box">
+    <main class="home__main">
+        <article class="home__main__article">
+            <img src="/img/img-phone-01.jpg" alt="Imagen phone 1">
+            <div class="home__main__article--description">
+                <h4>Nombre del producto</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quas.</p>
+                <a href="">ver más</a>
+            </div>
 
-    <main class="home_main">
+        </article>
+        <article class="home__main__article">
+            <img src="/img/img-phone-02.jpg" alt="Imagen phone 2">
+            <div class="home__main__article--description">
+                <h4>Nombre del producto</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quas.</p>
+                <a href="">ver más</a>
+            </div>
 
-        <section class="home_main_section">
-            <article class="card">
-                <img src="/img/img-phone-01.jpg" alt="hand holding smartphone">
-                <h4 class="titulo-producto">Nombre del producto</h4>
-                <p class="descripcion-producto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                    nesciunt id, commodi nihil non quam incidunt soluta maxime consequuntur amet at, debitis et
-                    deleniti.</p>
-                <p class="verMas">ver más</p>
+        </article>
+        <article class="home__main__article">
+            <img src="/img/img-phone-03.jpg" alt="Imagen phone 3">
+            <div class="home__main__article--description">
+                <h4>Nombre del producto</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quas.</p>
+                <a href="">ver más</a>
+            </div>
+
+        </article>
+        <article class="home__main__article">
+            <img src="/img/img-phone-01.jpg" alt="Imagen phone 1">
+            <div class="home__main__article--description">
+                <h4>Nombre del producto</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quas.</p>
+                <a href="">ver más</a>
+            </div>
+
+        </article>
+        <article class="home__main__article">
+            <img src="/img/img-phone-02.jpg" alt="Imagen phone 2">
+            <div class="home__main__article--description">
+                <h4>Nombre del producto</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quas.</p>
+                <a href="">ver más</a>
+            </div>
+
+        </article>
+        <article class="home__main__article">
+            <img src="/img/img-phone-03.jpg" alt="Imagen phone 3">
+            <div class="home__main__article--description">
+                <h4>Nombre del producto</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quas.</p>
+                <a href="">ver más</a>
+            </div>
+        </article>
+    </main>
+    <aside class="home__aside">
+        <section class="home__aside__section">
+            <h3>Tutoriales</h3>
+            <article class="home__aside__section__article">
+                <img src="/img/aside-01.jpg" alt="Imagen tutorial 1">
+                <h5>Título del tutorial de reparación</h5>
             </article>
-
-            <article class="card">
-                <img src="/img/img-phone-02.jpg" alt="hand holding smartphone">
-                <h4 class="titulo-producto">Nombre del producto</h4>
-                <p class="descripcion-producto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                    nesciunt id, commodi nihil non quam incidunt soluta maxime consequuntur amet at, debitis et
-                    deleniti.</p>
-                <p class="verMas">ver más</p>
+            <article class="home__aside__section__article">
+                <img src="/img/aside-02.jpg" alt="Imagen tutorial 2">
+                <h5>Título del tutorial de reparación</h5>
             </article>
-
-            <article class="card">
-                <img src="/img/img-phone-03.jpg" alt="hand holding smartphone">
-                <h4 class="titulo-producto">Nombre del producto</h4>
-                <p class="descripcion-producto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                    nesciunt id, commodi nihil non quam incidunt soluta maxime consequuntur amet at, debitis et
-                    deleniti.</p>
-                <p class="verMas">ver más</p>
+            <article class="home__aside__section__article">
+                <img src="/img/aside-03.jpg" alt="Imagen tutorial 3">
+                <h5>Título del tutorial de reparación</h5>
             </article>
-
-            <article class="card">
-                <img src="/img/img-phone-01.jpg" alt="hand holding smartphone">
-                <h4 class="titulo-producto">Nombre del producto</h4>
-                <p class="descripcion-producto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                    nesciunt id, commodi nihil non quam incidunt soluta maxime consequuntur amet at, debitis et
-                    deleniti.</p>
-                <p class="verMas">ver más</p>
-            </article>
-
-            <article class="card">
-                <img src="/img/img-phone-02.jpg" alt="hand holding smartphone">
-                <h4 class="titulo-producto">Nombre del producto</h4>
-                <p class="descripcion-producto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                    nesciunt id, commodi nihil non quam incidunt soluta maxime consequuntur amet at, debitis et
-                    deleniti.</p>
-                <p class="verMas">ver más</p>
-            </article>
-
-            <article class="card">
-                <img src="/img/img-phone-03.jpg" alt="hand holding smartphone">
-                <h4 class="titulo-producto">Nombre del producto</h4>
-                <p class="descripcion-producto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                    nesciunt id, commodi nihil non quam incidunt soluta maxime consequuntur amet at, debitis et
-                    deleniti.</p>
-                <p class="verMas">ver más</p>
+            <article class="home__aside__section__article">
+                <img src="/img/aside-04.jpg" alt="Imagen tutorial 4">
+                <h5>Título del tutorial de reparación</h5>
             </article>
         </section>
-
-            <aside class="home_aside-tutoriales">
-                <div class="title-box">
-                    <h3 class="aside-title">Tutoriales</h3>
-                </div>
-                <section class="section-content">
-                    <article class="article-box">
-                        <img src="/img/aside-01.jpg" alt="">
-                        <p class="descripcion-producto">Titulo del tutorial de reparación</p>
-                    </article>
-
-                    <article class="article-box">
-                        <img src="/img/aside-02.jpg" alt="">
-                        <p class="descripcion-producto">Titulo del tutorial de reparación</p>
-                    </article>
-
-                    <article class="article-box">
-                        <img src="/img/aside-03.jpg" alt="">
-                        <p class="descripcion-producto">Titulo del tutorial de reparación</p>
-                    </article>
-
-                    <article class="article-box">
-                        <img src="/img/aside-04.jpg" alt="">
-                        <p class="descripcion-producto">Titulo del tutorial de reparación</p>
-                    </article>
-                </section>
-            </aside>    
-
-            <aside class="home_aside-tutoriales">
-                <div class="title-box">
-                    <h3 class="aside-title">Publicidad</h3>
-                </div>
-                <section class="section-publicity-content">
-                    <article class="article-publicity-box">
-                        <img src="/img/img1.jpg" alt="">
-                    </article>
-                    <article class="article-publicity-box">
-                        <img class="img2" src="/img/img2.jpg" alt="">
-                    </article>
-                </section>
-            </aside>  
-
-    </main>
-
-    <footer class="home_footer">
-        <div class="footer-container">
-            <div>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
+        <section class="home__aside__section">
+            <h3>Publicidad</h3>
+            <div class="home__aside__section--ads">
+                <img src="/img/ad-01.jpg" alt="imagen publicidad 1">
+                <img src="/img/ad-02.jpg" alt="imagen publicidad 2">
             </div>
-            <div>
-                <p>© 2023 Craftsy</p>
-            </div>
-            <div>
-                <a href="#"><i class="fa-solid fa-arrow-turn-up" style="color: #000"></i></a>
-            </div>
-        </div>
-    </footer>
+        </section>
+    </aside>
+</div>
 </body>
 
 </html>
